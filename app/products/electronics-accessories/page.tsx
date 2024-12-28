@@ -1,5 +1,5 @@
 import React from 'react';
-import electronics from '@/public/Electronics.webp';
+import electronics from '../../../public/Electronics.webp';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {

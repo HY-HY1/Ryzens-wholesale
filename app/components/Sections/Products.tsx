@@ -1,10 +1,10 @@
 import React from 'react';
-import HCP from '@/public/HPC.jpg';
-import Kitchen from '@/public/kitchen.jpg';
-import Health from '@/public/Heath.jpg';
-import Pet from '@/public/pet.jpg';  
-import Baby from '@/public/baby.jpg';
-import Electronics from '@/public/Electronics.webp';
+import HCP from '../../../public/HPC.jpg';
+import Kitchen from '../../../public/kitchen.jpg';
+import Health from '../../../public/Heath.jpg';
+import Pet from '../../../public/pet.jpg';  
+import Baby from '../../../public/baby.jpg';
+import Electronics from '../../../public/Electronics.webp';
 import Link from 'next/link';
 
 const productArray = [
