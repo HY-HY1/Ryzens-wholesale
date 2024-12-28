@@ -1,5 +1,5 @@
 import React from 'react';
-import kitchen from '@/public/Kitchen.jpg';
+import kitchen from '../../../public//Kitchen.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {

@@ -9,7 +9,7 @@ const babyProducts = [
     "Baby Carriers",
   ]
 
-import Baby from "@/public/baby.jpg";
+import Baby from "../../../public/Baby.jpg";
 const page = () => {
   return (
     <div>

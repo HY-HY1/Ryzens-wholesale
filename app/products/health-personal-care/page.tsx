@@ -1,5 +1,5 @@
 import React from 'react';
-import HPC from '@/public/hpc.jpg';
+import HPC from '../../../public/hpc.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {

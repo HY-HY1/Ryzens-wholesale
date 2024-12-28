@@ -1,5 +1,5 @@
 import React from 'react';
-import sports from '@/public/Heath.jpg';
+import sports from '../../../public//Heath.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {

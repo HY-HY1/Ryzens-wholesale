@@ -1,5 +1,5 @@
 import React from 'react';
-import Pet from '@/public/Pet.jpg';
+import Pet from '../../../public/Pet.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {
