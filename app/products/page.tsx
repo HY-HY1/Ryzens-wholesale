@@ -1,6 +1,5 @@
 import React from 'react'
 import Products from '../components/Sections/Products'
-import Forklift from '@/public/forklift.jpg'
 
 const page = () => {
   return (
