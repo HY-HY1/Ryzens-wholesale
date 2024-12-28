@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const productArray = [
     { image: '/HCP.jpg', text: 'Health & Personal Care', url: 'health-personal-care' },
-    { image: '/kitchen.jpg', text: 'Home & Kitchen', url: 'home-kitchen' },
+    { image: '/Kitchen.jpg', text: 'Home & Kitchen', url: 'home-kitchen' },
     { image: '/Heath.jpg', text: 'Sports & Outdoors', url: 'sports-outdoors' },
-    { image: '/pet.jpg', text: 'Pet Supplies', url: 'pet-supplies' },
-    { image: '/baby.jpg', text: 'Baby Products', url: 'baby-products' },
+    { image: '/Pet.jpg', text: 'Pet Supplies', url: 'pet-supplies' },
+    { image: '/Baby.jpg', text: 'Baby Products', url: 'baby-products' },
     { image: '/Electronics.webp', text: 'Electronics & Accessories', url: 'electronics-accessories' },
 ];
 
