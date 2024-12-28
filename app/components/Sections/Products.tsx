@@ -1,19 +1,13 @@
 import React from 'react';
-import HCP from '../../../public/HPC.jpg';
-import Kitchen from '../../../public/kitchen.jpg';
-import Health from '../../../public/Heath.jpg';
-import Pet from '../../../public/pet.jpg';  
-import Baby from '../../../public/baby.jpg';
-import Electronics from '../../../public/Electronics.webp';
 import Link from 'next/link';
 
 const productArray = [
-    { image: HCP, text: 'Health & Personal Care', url: 'health-personal-care' },
-    { image: Kitchen, text: 'Home & Kitchen', url: 'home-kitchen' },
-    { image: Health, text: 'Sports & Outdoors', url: 'sports-outdoors' },
-    { image: Pet, text: 'Pet Supplies', url: 'pet-supplies' },
-    { image: Baby, text: 'Baby Products', url: 'baby-products' },
-    { image: Electronics, text: 'Electronics & Accessories', url: 'electronics-accessories' },
+    { image: '/HCP.jpg', text: 'Health & Personal Care', url: 'health-personal-care' },
+    { image: '/kitchen.jpg', text: 'Home & Kitchen', url: 'home-kitchen' },
+    { image: '/Heath.jpg', text: 'Sports & Outdoors', url: 'sports-outdoors' },
+    { image: '/pet.jpg', text: 'Pet Supplies', url: 'pet-supplies' },
+    { image: '/baby.jpg', text: 'Baby Products', url: 'baby-products' },
+    { image: '/Electronics.webp', text: 'Electronics & Accessories', url: 'electronics-accessories' },
 ];
 
 const Products = () => {
@@ -25,7 +19,7 @@ const Products = () => {
         <div className='w-full grid grid-cols-3 gap-8 my-4'>
             {productArray.map((product, index) => (
                 <Link href={`/products/${encodeURIComponent(product.url)}`} key={index}>
-                    <div className='w-full h-[30vh] rounded-md hover:scale-105 transition-all bg-cover bg-center relative' style={{ backgroundImage: `url(${product.image.src})` }}>
+                    <div className='w-full h-[30vh] rounded-md hover:scale-105 transition-all bg-cover bg-center relative' style={{ backgroundImage: `url(${product.image})` }}>
                         <div className='absolute inset-0 rounded-md bg-black opacity-60'></div>
                         <div className='absolute inset-0 flex justify-center items-center'>
                             <h3 className='text-white'>{product.text}</h3>
@@ -35,7 +29,7 @@ const Products = () => {
             ))}
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Products;

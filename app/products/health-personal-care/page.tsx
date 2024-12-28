@@ -1,5 +1,4 @@
 import React from 'react';
-import HPC from '../../../public/hpc.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {
@@ -15,8 +14,8 @@ const page = () => {
       <CatagoryLayout
         heading="Health & Personal Care"
         text="Enhance your well-being with our premium health and personal care products. From skincare essentials to fitness equipment, find everything you need to support a healthier, more vibrant lifestyle."
-        image={HPC.src}
         examples={healthExamples}
+        image='/HPC.jpg'
       />
     </div>
   );

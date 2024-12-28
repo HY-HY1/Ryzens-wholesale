@@ -1,5 +1,4 @@
 import React from 'react';
-import kitchen from '../../../public//Kitchen.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {
@@ -15,7 +14,7 @@ const page = () => {
       <CatagoryLayout
         heading="Home & Kitchen"
         text="Upgrade your home and kitchen with our top-quality products. From cookware and appliances to dining essentials and storage solutions, find everything you need to make your space functional and stylish."
-        image={kitchen.src}
+        image="/Kitchen.jpg"
         examples={kitchenExamples}
       />
     </div>

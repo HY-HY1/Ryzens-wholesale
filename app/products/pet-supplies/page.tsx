@@ -1,5 +1,4 @@
 import React from 'react';
-import Pet from '../../../public/Pet.jpg';
 import CatagoryLayout from '@/app/components/Sections/CatagoryLayout';
 
 const page = () => {
@@ -15,7 +14,7 @@ const page = () => {
       <CatagoryLayout
         heading="Pet Supplies"
         text="Keep your furry friends happy and healthy with our wide selection of pet supplies. From nutritious food and treats to grooming products and toys, we have everything your pet needs."
-        image={Pet.src}
+        image="/Pet.jpg"  
         examples={petExamples}
       />
     </div>
