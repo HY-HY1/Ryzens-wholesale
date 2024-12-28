@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const productArray = [
-    { image: '/HCP.jpg', text: 'Health & Personal Care', url: 'health-personal-care' },
+    { image: '/HPC.jpg', text: 'Health & Personal Care', url: 'health-personal-care' },
     { image: '/Kitchen.jpg', text: 'Home & Kitchen', url: 'home-kitchen' },
     { image: '/Heath.jpg', text: 'Sports & Outdoors', url: 'sports-outdoors' },
     { image: '/Pet.jpg', text: 'Pet Supplies', url: 'pet-supplies' },
